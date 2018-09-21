@@ -1,3 +1,5 @@
+package me.kospo.shapes;
+
 public class Circle implements Figure {
     private final double radius;
 

@@ -1,3 +1,7 @@
+import me.kospo.shapes.Circle;
+import me.kospo.shapes.Figure;
+import me.kospo.shapes.Rectangle;
+import me.kospo.shapes.Square;
 import org.junit.Assert;
 import org.junit.Test;
 
