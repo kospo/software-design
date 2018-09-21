@@ -1,19 +1,17 @@
-package me.kospo;
-
 public class Rectangle implements Figure {
-    private final double a;
-    private final double b;
+    private final double width;
+    private final double height;
 
     public Rectangle(double a, double b) {
         assert a > 0;
         assert b > 0;
 
-        this.a = a;
-        this.b = b;
+        this.width = a;
+        this.height = b;
     }
 
     @Override
     public double getArea() {
-        return a*b;
+        return width * height;
     }
 }
