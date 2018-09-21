@@ -1,10 +1,10 @@
 public class Circle implements Figure {
     private final double radius;
 
-    public Circle(double r) {
-        assert r > 0;
+    public Circle(double radius) {
+        assert radius > 0;
 
-        this.radius = r;
+        this.radius = radius;
     }
 
     @Override

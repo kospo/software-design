@@ -13,8 +13,8 @@ public class TestFigures {
         Figure r = new Rectangle(RECTANGLE_A, RECTANGLE_B);
         Figure s = new Square(SQUARE_A);
 
-        Assert.assertEquals(c.getArea(), Math.PI*CIRCLE_RADIUS*CIRCLE_RADIUS, 1E-5);
-        Assert.assertEquals(r.getArea(), RECTANGLE_A*RECTANGLE_B, 1E-5);
-        Assert.assertEquals(s.getArea(), SQUARE_A*SQUARE_A, 1E-5);
+        Assert.assertEquals(c.getArea(), Math.PI * CIRCLE_RADIUS * CIRCLE_RADIUS, 1E-5);
+        Assert.assertEquals(r.getArea(), RECTANGLE_A * RECTANGLE_B, 1E-5);
+        Assert.assertEquals(s.getArea(), SQUARE_A * SQUARE_A, 1E-5);
     }
 }

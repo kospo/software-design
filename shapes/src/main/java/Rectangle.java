@@ -2,12 +2,12 @@ public class Rectangle implements Figure {
     private final double width;
     private final double height;
 
-    public Rectangle(double a, double b) {
-        assert a > 0;
-        assert b > 0;
+    public Rectangle(double width, double height) {
+        assert width > 0;
+        assert height > 0;
 
-        this.width = a;
-        this.height = b;
+        this.width = width;
+        this.height = height;
     }
 
     @Override
